@@ -1,0 +1,223 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+ol, ul {
+    list-style: none inside none;
+}
+blockquote, q {
+    quotes: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #333333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 62.5%;
+}
+header, footer, aside, section, article, nav {
+  display: block;
+}
+a {
+  color: #595959;
+  text-decoration: none;
+}
+a[name] {
+  color: #999999;
+}
+a:link, a:visited {
+    color: #595959;
+    outline: medium none;
+}
+a:hover {
+    color: #999999;
+    text-decoration: none;
+}
+a[name]:hover {
+}
+*::-moz-selection {
+  background: none repeat scroll 0 0 #B8AF52;
+  color: rgba(255, 255, 255, 0.85);
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;  
+}
+* html .clearfix {  /* IE6 */
+  zoom: 1; 
+}
+*:first-child+html .clearfix { /* IE7 */
+  zoom: 1;
+}
+
+/* browser fixes */
+select { min-width:1.5em; }
+
+article h1, article h2, article h3, article h4, article h5, article h6 { 
+  margin-top: 30px;
+}
+
+div#wrap {
+  margin: 0 auto;
+  width: 940px;
+  text-align: left;
+  margin-top: -1px;
+  border-top: 1px solid transparent;
+}
+
+aside#posterous_header {
+  min-height: 39px;
+}
+aside#posterous_header a.logo {
+  background: url('/images/posterous-header.png') no-repeat left top;
+  width: 75px;
+  height: 35px;
+  text-indent: -9999px;
+  display: inline;
+  margin-left: -5px;
+  float: left;
+  margin-left: 150px;
+}
+aside#posterous_header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+section#extra_links {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+section#extra_links div {
+  height: 11px;
+}
+section#extra_links a#global_tags {
+  display: block;
+  font-size: 10px;
+}
+section#extra_links ul li {
+  list-style: none;
+  display: inline; 
+  padding-right: 10px;
+}
+section#extra_links a#search_all {
+  display: block;
+  font-size: 10px;
+}
+
+form.search input.submit { font-size: 10px; padding: 2px; margin: 5px 10px 0 0; }
+
+#fans img{
+  width: 20px; 
+  height: 20px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+
+#rss a{
+  background: url('/images/feed-icon-14x14.png') no-repeat left top;
+}
+
+article div.body {
+  font-size: 1.2em; 
+  line-height: 1.8em;
+}
+article div.body div.inner { margin: 15px 0 0; }
+article div.body div.inner > *:first-child { margin-top: 0; margin-bottom: 0; }
+article div.body div.inner > p:first-child { margin-top: 15px; }
+article div.body p, article div.body blockquote { margin: 15px 0 18px; }
+article .body .posterousGalleryMainDiv {
+  margin: 0 0 15px;
+}
+article .body .posterousGalleryNavigationDiv{
+  display: none;
+}
+article .body .posterousGalleryThumbnailsDiv a{
+  margin-right: 15px;
+}
+a.posterousGalleryMainlink span.show, a.posterousGalleryMainlink:hover span.show{
+  display: none;
+}
+
+article footer { float: left; width: 655px; margin-top: 10px; }
+footer section.author { float: right; }
+footer section.author h1 a img { opacity: 0.5; width: 10px; height: 10px; vertical-align: middle; border: 1px solid #ccc; }
+footer section.author:hover h1 a img { opacity: 1; width: 20px; height: 20px; }
+
+footer section.comments h1 { font-size: 12px; font-weight: normal; margin: 0 0 0 155px; }
+footer section.comments section h1 { margin-bottom: 15px; padding-top: 40px; width: 500px; margin-left: 155px; border-bottom: 1px solid #ddd; padding-bottom: 2px; font-size: 16px; line-height: 20px; font-weight: bold; }
+
+div.comment { float: left; width: 500px; margin-left: 25px; font-size: 12px; line-height: 20px; }
+div.comment_value { float: left; margin-left: 25px; width: 500px; line-height: 18px; font-size: 12px; }
+div.comment_avatar { float: none; margin-top: 10px; }
+div.commentunit div.profile_icon { margin-top: 5px; }
+div.commentname { font-size: 12px; margin-bottom: 5px; }
+div.comment_loading_div { margin-left: 155px; }
+div.comment_spacer { font-size: 14px; padding-top: 14px; }
+div.comment_area { clear: left; float: left; }
+
+/* // FOOTER
+//////////////////////////////////////////////////////////////////////////// */
+footer#pagination { margin-left: 155px; width: 500px; padding-bottom: 50px; overflow: hidden; clear: both; }
+.pagination { padding: 3px; margin: 3px; }
+.pagination a { padding: 2px 5px; margin: 2px; border: 1px solid #ccc; text-decoration: none; color: #ccc; }
+.pagination span.disabled { padding: 2px 5px; margin: 2px; border: 1px solid #eee; color: #ddd; }
+
+footer section.share { height: 25px; margin-bottom: 10px; }
+div.ajaxResult { margin-bottom: 10px; color: #090; font-size: 10px; }
+div.retweet { display: inline-block; vertical-align: middle; background: url('/images/icons/services/twitter11.png') no-repeat left center; padding-left: 15px; min-width: 1px; min-height: 11px; zoom: 1; *display: inline;  }
+.twitter-share-button { float: left; }
+div.facebook_like { float: left; display: inline; position: relative;  margin-left: 5px; zoom: 1; }
+
+table { font-size: 11px; border: none; margin: 10px 0 0; border-spacing: 0px; line-height: 16px; text-align: left; }
+td { border: none; border-bottom: 1px solid #eee; padding: 4px; margin: 0px; vertical-align: top; }
+th { text-align: left; font-weight: bold; padding: 4px; border: none; border-bottom: 1px solid #ccc; vertical-align: bottom; }
+hr { margin-top: 10px; margin-bottom: 10px; border: 1px solid #ddd; }
+
+#posterous_required_header, #psub_nonuser_link, .fav_star, #posterous_footerbar{
+  display: none;
+}
+
+div.posterousListComments div.comment, div.posterousAddNewComment div.comment, div.posterousAddNewComment div.comment_value { margin-left: 25px; }
+aside.private { position: relative; margin-top: 10px; }
+aside.private:hover div.private_post_message { display: block; }
+div.private_post_message { 
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0,0,0,0.23) 0px 3px 10px;
+  -moz-box-shadow: rgba(0,0,0,0.23) 0px 3px 10px;
+  box-shadow: rgba(0,0,0,0.23) 0px 3px 10px;
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f2f2f2));
+  background: -moz-linear-gradient(top, #fff, #f2f2f2);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#fff', endColorstr='#f2f2f2');
+  border: 1px solid #aaa;
+  padding: 10px;
+  width: 100px;
+  display: none;
+  text-align: left;
+}
+div.private_post_message h1 {
+  font-size: 11px;
+  margin: 0 0 5px 0;
+  padding: 0;
+  float: none;
+  width: auto;
+}
+div.private_post_message p { font-size: 10px; margin: 0;}
+div.posterous_retweet_widget { margin: 0px 0px 10px; }
+div.posterous_tweet_button { float: left; margin-right: 15px; }

@@ -1,0 +1,267 @@
+/* // GLOBAL
+////////////////////////////////////////////////////////////////////////////*/
+body {
+  /*background: #fff url("../images/background.png") repeat-y top left;*/
+}
+img, object{
+  /* fluid images */
+  max-width: 100%;
+}
+.inner img{
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+input, select, textarea {
+  color: #333;
+  font-size: 1.6em;
+  font-family: Tahoma,Helvetica,sans-serif;
+  line-height: 1.3em !important;
+  padding: 5px;
+}
+input[type='text'], input[type='password'], select, textarea {
+  background-color: #FEFEFE;
+  border: 1px solid #ccc;
+}
+input[type='button'], input[type='submit'] {
+  height: 2em;
+  font-size: 1.4em;
+  color: #444;
+  margin-top: 10px;
+}
+h1, h2{
+  font-family: "Josefin Sans",Tahoma,sans-serif;
+}
+h1{
+  font-size: 38px;
+}
+h2{
+  font-size: 21px;
+}
+
+
+/* // SIDEBAR
+////////////////////////////////////////////////////////////////////////////*/
+#sidebar {
+  position: relative;
+  float: left;
+  width: 380px;
+  min-width: 250px;
+  font-size: 12.5px;
+  color: #d9d9d9;
+  text-shadow: 0 1px 0 #363636;
+  margin-right: 45px;
+}
+#sidebar h1, #sidebar h2{
+  color: #B8AF52;
+}
+#sidebar-inner {
+  margin: 20px 20px 0 auto;
+  width: 280px;
+}
+#title{
+  padding: 13px 0 40px;
+}
+#title h1 a {
+  color: #B8AF52;
+}
+#title h1 a:hover {
+  text-decoration: none;
+}
+#title h2{
+  font-size: 19px;
+  font-weight: normal;
+  color: #d9d9d9;
+  margin: 48px 0 0;
+}
+
+#sidebar section {
+  margin-bottom: 30px;
+}
+#sidebar a{
+  color: #ccc;
+}
+/*
+#sidebar section h1 {
+  font-size: 11px;
+  font-weight: normal;
+  color: #999999;
+  letter-spacing: 0;
+}
+*/
+#sidebar section ul {
+  margin: 0;
+}
+#sidebar section ul li {
+  list-style: none;
+  color: #999999;
+}
+#profile{
+  text-align: justify;
+}
+#profile p{
+  font-family: "Josefin Sans",Tahoma,sans-serif;
+  font-size: 14px;
+}
+#profile img.profile_image {
+  border: 1px solid #ccc;
+  width: 75px;
+  height: 75px;
+}
+#profile div.external {
+  margin: 10px 0;
+  font-size: 14px;
+}
+#profile > img {
+  margin: 7px 20px 10px 0;
+  float: left;
+}
+
+#statistics {
+  font-size: 10px;
+  color: #999999;
+}
+#statistics strong {
+  color: #424037;
+}
+#statistics ul li {
+  margin-bottom: 5px;
+}
+#tags li.selected a {
+  color: #424037;
+}
+
+
+/* // NAVIGATION
+////////////////////////////////////////////////////////////////////////////*/
+#nav {
+  float: left;
+  width: 750px;
+  margin: 40px 0 19px;
+}
+#nav li{
+  display: inline;
+  margin: 0 16px 0 0;
+}
+#nav li a{
+  font-family: "Josefin Sans",Tahoma,sans-serif;
+  font-size: 20px;
+  padding: 45px 10px 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+#nav li a:hover {
+  background-color: #DEDEDE;
+  text-decoration: none;
+  color: #595959;
+}
+#nav li a.current {
+  background-color: #606060;
+  color: #f5f5f5;
+  text-shadow: 0 1px 0 #363636;
+}
+
+/* // ARTICLES
+////////////////////////////////////////////////////////////////////////////*/
+#articles {
+  float: left;
+  clear: right;
+  width: 750px;
+}
+article { 
+  position: relative;
+  margin-bottom: 35px;
+}
+article header {
+  padding-top: 5px;
+}
+article header h1 {
+  font-size: 2.5em;
+}
+article header h1 a {
+  color: #444;
+}
+article header h1 a:hover {
+  color: #999;
+  text-decoration: none;
+}
+article header .tags ul {
+  margin: 0;
+  display: inline;
+}
+article header .tags ul li {
+  padding-right: 10px;
+  display: inline;
+  list-style: none;
+}
+article time {
+  margin-left: 25px;
+}
+.article-info {
+  float: left;
+  font-size: 1.1em;
+  font-family: Tahoma,Helvetica,sans-serif;
+  color: #999;
+  font-style: italic;
+  margin: 10px 15px 0 0;
+}
+.article-info li {
+  display: inline;
+}
+article ul ul li{
+  margin-left: 2em;
+  list-style-type: circle;
+}
+
+section#extra_links h1 span {
+  letter-spacing: 0;
+  display: block;
+  font-size: 10px;
+  font-weight: normal;
+  color: #999;
+}
+section#extra_links ul {
+  color: #999;
+  font-size: 10px;
+}
+
+form.search input.text {
+  font-size: 12px;
+  padding: 2px 2px 2px 20px;
+  border: 1px solid #ccc;
+  background: #FEFEFE url('/images/icons/search16.png') no-repeat 3px 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+article .body .inner > div{
+  
+}
+
+
+/* // FOOTER
+////////////////////////////////////////////////////////////////////////////*/
+.pagination a:hover, .pagination a:active {
+  border: 1px solid #ca9d00;
+  color: {color: Link};
+}
+.pagination span.current {
+  padding: 2px 5px;
+  margin: 2px;
+  font-weight: bold;
+  border: 1px solid {color: Link};
+  background-color: {color: Link};
+  color: #FEFEFE;
+}
+
+
+.borderline{
+  background-color: #000;
+  font-size: 1px;
+  line-height: 0px;
+  opacity: 0.1;
+}
+
+.highlight {
+  background-color: #ACCDEC;
+}
