@@ -1,0 +1,22 @@
+
+description: Françoise Caillaud, aquarelliste
+
+author:
+  name:       Françoise Caillaud
+  email:      francoise.caillaud@wanadoo.fr
+  siret:      48480498400017
+
+  presentation: |
+    Passionnée d’aquarelle depuis des années, je m’y adonne plus particulièrement depuis 6 ans , en suivant des formations  dans « le mouillé » , et en animant, moi-même des  ateliers !
+    Emergeant d’un coup de cœur ( regard posé sur un détail de  ma vie quotidienne ou affective ),  je crée, autour d’un sujet,  une atmosphère évanescente, lumineuse, mouvementée, …. entre réalisme, et imaginaire.
+    Depuis peu, je me tourne vers d’autres techniques, notamment, en associant encre et acrylique. Tout en étant également très diluées , ces réalisations sont plus abstraites et suggestives !
+
+  autre : |
+    Passionnée d’Aquarelle mouillée, mes réalisations, très épurées, révèlent une atmosphère colorée, lumineuse, évanescente, d'où émane un sujet central, un coup de coeur...
+
+
+
+paginate:         10
+exclude:         [Makefile, README.md]
+permalink:        /:categories/:title
+analyticss:        UA-17837251-1
