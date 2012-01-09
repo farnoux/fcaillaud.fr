@@ -15,7 +15,7 @@ author:
     Passionnée d’Aquarelle mouillée, mes réalisations, très épurées, révèlent une atmosphère colorée, lumineuse, évanescente, d'où émane un sujet central, un coup de coeur...
 
 
-
+root:             /fcaillaud.fr
 paginate:         10
 exclude:         [Makefile, README.md]
 permalink:        /:categories/:title

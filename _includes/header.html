@@ -6,10 +6,10 @@
 
   <nav id="nav">
     <ul>
-      <li><a href="/">oeuvres</a></li>
-      <li><a href="/expositions" {% if page.url contains '/expositions' %} class="active" {% endif %}>expositions</a></li>
-      <li><a href="/ateliers" {% if page.url contains '/ateliers' %} class="active" {% endif %}>ateliers</a></li>
-      <li><a href="/parcours" {% if page.url contains '/parcours' %} class="active" {% endif %}>parcours</a></li>
+      <li><a href="{{ site.root }}/">oeuvres</a></li>
+      <li><a href="{{ site.root }}/expositions" {% if page.url contains '/expositions' %} class="active" {% endif %}>expositions</a></li>
+      <li><a href="{{ site.root }}/ateliers" {% if page.url contains '/ateliers' %} class="active" {% endif %}>ateliers</a></li>
+      <li><a href="{{ site.root }}/parcours" {% if page.url contains '/parcours' %} class="active" {% endif %}>parcours</a></li>
     </ul>
   </nav>
 
