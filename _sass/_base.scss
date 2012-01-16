@@ -35,7 +35,8 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
  */
 img { border: 0; -ms-interpolation-mode: bicubic; }
 
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+// ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+ul, ol { margin: 0; padding: 0; }
 nav ul, nav ol { list-style: none; margin: 0; padding: 0; }
 
 a:focus { outline: thin dotted; }
