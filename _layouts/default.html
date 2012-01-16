@@ -20,12 +20,8 @@
 
 
 {% include header.html %}
-{% include sidebar.html %}
-<div id="content">
-  <div id="content-inner">
-  {{ content }}
-  </div>
-</div>
+<div id="content">{{ content }}</div>
+{% include footer.html %}
 
 <script>
   var _gaq=[['_setAccount','{{ site.analytics }}'],['_trackPageview']];
