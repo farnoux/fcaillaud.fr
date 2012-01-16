@@ -105,104 +105,85 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 38, ../_sass/_base.scss */
+/* line 39, ../_sass/_base.scss */
 ul, ol {
-  margin: 1em 0;
-  padding: 0 0 0 40px;
+  margin: 0;
+  padding: 0;
 }
 
-/* line 39, ../_sass/_base.scss */
+/* line 40, ../_sass/_base.scss */
 nav ul, nav ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 41, ../_sass/_base.scss */
+/* line 42, ../_sass/_base.scss */
 a:focus {
   outline: thin dotted;
 }
 
 /* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
-/* line 44, ../_sass/_base.scss */
+/* line 45, ../_sass/_base.scss */
 a:hover, a:active {
   outline: 0;
 }
 
 /* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */
-/* line 47, ../_sass/_base.scss */
+/* line 48, ../_sass/_base.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 48, ../_sass/_base.scss */
+/* line 49, ../_sass/_base.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 49, ../_sass/_base.scss */
+/* line 50, ../_sass/_base.scss */
 .clearfix {
   zoom: 1;
 }
 
-/* line 8, ../_sass/_misc.scss */
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 0px;
-  background-color: #F5F5F5;
-}
-
-/* line 14, ../_sass/_misc.scss */
-::-webkit-scrollbar {
-  width: 12px;
-  background-color: #F5F5F5;
-}
-
-/* line 19, ../_sass/_misc.scss */
-::-webkit-scrollbar-thumb {
-  border-radius: 0;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
-  background-color: #b9b9b9;
-}
-
-/* line 19, ../_sass/style.scss */
+/* line 33, ../_sass/style.scss */
 body {
   font: normal 100%/1.7 Cambria, Garamond, Georgia, Times, serif;
   background-color: white;
   color: #474747;
 }
 
-/* line 24, ../_sass/style.scss */
-h1, h2 {
+/* line 38, ../_sass/style.scss */
+h1, h2, h3 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   letter-spacing: .1em;
 }
 
-/* line 31, ../_sass/style.scss */
+/* line 41, ../_sass/style.scss */
 h1 {
   font-size: 2em;
   padding: .2em .9em .3em;
 }
 
-/* line 35, ../_sass/style.scss */
+/* line 45, ../_sass/style.scss */
 h2 {
   font-size: 1.7em;
-  padding: .4em 0 .1em;
+  padding: .2em 0 .1em;
 }
 
-/* line 39, ../_sass/style.scss */
+/* line 49, ../_sass/style.scss */
 h3 {
-  padding: .4em .5em .5em 1em;
+  font-size: 1.4em;
+  padding: .4em 0 .5em;
 }
 
-/* line 42, ../_sass/style.scss */
+/* line 53, ../_sass/style.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 46, ../_sass/style.scss */
+/* line 57, ../_sass/style.scss */
 a, a:visited {
   text-decoration: none;
   color: #474747;
@@ -210,96 +191,89 @@ a, a:visited {
   border-bottom: 1px solid #f3da25;
 }
 
-/* line 52, ../_sass/style.scss */
+/* line 63, ../_sass/style.scss */
 a:active, a:hover {
   background: #fbf3b6;
 }
 
-/* line 56, ../_sass/style.scss */
+/* line 67, ../_sass/style.scss */
 img {
   border: 10px solid #ececec;
 }
 
-/* line 64, ../_sass/style.scss */
-#sidebar {
+/* line 74, ../_sass/style.scss */
+.west, #content h2 {
   display: inline;
   float: left;
-  width: 36.2%;
-  background-color: #606060;
-  color: white;
+  width: 32.2%;
   text-align: right;
-}
-/* line 71, ../_sass/style.scss */
-#sidebar a {
+  padding: 0 2%;
   color: white;
 }
-
-/* line 76, ../_sass/style.scss */
-#sidebar-inner {
-  padding-right: 1.9em;
+/* line 84, ../_sass/style.scss */
+.west a, #content h2 a {
+  color: white;
+}
+/* line 88, ../_sass/style.scss */
+.west h1, #content h2 h1, .west h2, #content h2 h2, .west h3, #content h2 h3 {
+  padding-right: 0;
 }
 
-/* line 82, ../_sass/style.scss */
-#content {
+/* line 93, ../_sass/style.scss */
+.east, #content p, #content ul {
   display: inline;
-  float: right;
-  width: 63.8%;
-  -webkit-box-shadow: -10px 0 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: -10px 0 0 rgba(0, 0, 0, 0.1);
-  box-shadow: -10px 0 0 rgba(0, 0, 0, 0.1);
+  float: left;
+  width: 61.8%;
+  padding: 0 1%;
 }
-/* line 87, ../_sass/style.scss */
+
+/* line 105, ../_sass/style.scss */
+.category-menu {
+  height: 200px;
+}
+
+/* line 114, ../_sass/style.scss */
 #content article {
   padding: .5em 1em 1.2em 0;
 }
-/* line 91, ../_sass/style.scss */
+/* line 118, ../_sass/style.scss */
 #content header p {
   font-size: .9em;
   font-style: italic;
   color: #7a7a7a;
   margin: 0 0 .8em .5em;
 }
-/* line 100, ../_sass/style.scss */
-#content h2 {
-  font-weight: normal;
-  font-family: Cambria, Garamond, Georgia, Times, serif;
-  letter-spacing: 0;
-}
-
-/* line 107, ../_sass/style.scss */
-#content-inner {
-  margin-left: 2em;
-}
-
-/* line 111, ../_sass/style.scss */
-#header {
+/* line 127, ../_sass/style.scss */
+#content section {
+  background-color: #606060;
   margin-bottom: 2em;
 }
-/* line 114, ../_sass/style.scss */
-#header div {
-  display: inline;
-  float: left;
-  width: 36.2%;
-  text-align: right;
+/* line 136, ../_sass/style.scss */
+#content p, #content ul {
+  background-color: white;
+}
+
+/* line 147, ../_sass/style.scss */
+#header {
+  margin-bottom: 2em;
   background-color: #606060;
+}
+/* line 151, ../_sass/style.scss */
+#header h1 {
   color: #f3da25;
 }
 
-/* line 123, ../_sass/style.scss */
+/* line 156, ../_sass/style.scss */
 #nav {
-  display: inline;
-  float: left;
-  width: 63.8%;
-  background-color: #606060;
   font-size: 1.3em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
-/* line 133, ../_sass/style.scss */
+/* line 164, ../_sass/style.scss */
 #nav ul {
   background-color: white;
 }
-/* line 138, ../_sass/style.scss */
+/* line 168, ../_sass/style.scss */
 #nav li {
   float: left;
   text-align: center;
@@ -307,33 +281,34 @@ img {
   border-style: solid;
   border-color: white;
 }
-/* line 147, ../_sass/style.scss */
+/* line 176, ../_sass/style.scss */
 #nav li:first-child {
   border-left-width: 0.5em;
 }
-/* line 150, ../_sass/style.scss */
+/* line 179, ../_sass/style.scss */
 #nav li:last-child {
   border-right-width: 0.5em;
 }
 
-/* line 156, ../_sass/style.scss */
+/* line 185, ../_sass/style.scss */
 #nav a, #nav a:visited {
   display: block;
   width: 7em;
   padding: .9em 0 .7em;
   border: none;
-  background-color: #606060;
+  background-color: #7a7a7a;
   color: white;
   font-weight: 100;
   letter-spacing: .1em;
 }
 
-/* line 166, ../_sass/style.scss */
+/* line 195, ../_sass/style.scss */
 #nav a:active, #nav a:hover {
-  background-color: #7a7a7a;
+  background-color: #6d6d6d;
 }
 
-/* line 169, ../_sass/style.scss */
+/* line 198, ../_sass/style.scss */
 #nav a.active {
-  background-color: #939393;
+  background-color: #606060;
+  color: #f3da25;
 }

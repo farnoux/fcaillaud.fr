@@ -1,8 +1,21 @@
 @import "base";
 @import "misc";
 
-$font-family-sans:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-light:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family: Cambria, Garamond, Georgia, Times, serif;
+
+@mixin font-normal() {
+  font-family: $font-family;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+@mixin font-light() {
+  font-family: $font-family-light;
+  font-weight: 100;
+  letter-spacing: .1em;
+}
+
 
 $color-dark: #606060;
 $color-light: lighten($color-dark, 90%);
@@ -14,6 +27,7 @@ $font-color: darken($color-dark, 10%);
 $width-left: 36.2%;
 $width-right: 100% - $width-left;
 $width-gutter: .5em;
+$height-gutter: .6em;
 
 
 body {
@@ -21,12 +35,8 @@ body {
   background-color: $color-bg;
   color: $font-color;
 }
-h1, h2{
-  font: {
-    family: $font-family-sans;
-    weight: 100;
-  }
-  letter-spacing: .1em;
+h1, h2, h3{
+  @include font-light;
 }
 h1 {
   font-size: 2em;
@@ -34,10 +44,11 @@ h1 {
 }
 h2 {
   font-size: 1.7em;
-  padding: .4em 0 .1em;
+  padding: .2em 0 .1em;
 }
 h3 {
-  padding: .4em .5em .5em 1em;
+  font-size: 1.4em;
+  padding: .4em 0 .5em;
 }
 strong {
   // font: bold 1.1em $font-family;
@@ -60,29 +71,45 @@ img {
 //   border-color: lighten($color-dark, 45%);
 // }
 
-
-#sidebar {
+.west {
   @include float-left;
-  width: $width-left;
-  background-color: $color-dark;
-  color: $color-light;
+  width: $width-left - 4%;
   text-align: right;
+  // padding: .3em 1.9em .5em .2em;
+  padding: 0 2%;
+  color: $color-light;
+  // background-color: $color-dark;
+  
 
   a {
     color: $color-light;
   }
+
+  h1, h2, h3 {
+    padding-right: 0;
+  }
 }
 
-#sidebar-inner {
-  padding-right: 1.9em;
+.east {
+  @include float-left;
+  width: $width-right - 2%;
+  padding: 0 1%;
 }
 
+// .west section, section.west {
+//   background-color: $color-dark;
+  
+//   margin: 0 0 $height-gutter;
+// }
 
+.category-menu {
+  height: 200px;
+}
 
 #content {
-  @include float-right;
-  width: $width-right;
-  @include box-shadow(-10px 0 0 rgba(0,0,0,.1));
+  // @include float-right;
+  // width: $width-right;
+  // @include box-shadow(-10px 0 0 rgba(0,0,0,.1));
 
   article {
     padding: .5em 1em 1.2em 0;
@@ -97,47 +124,49 @@ img {
     margin: 0 0 .8em .5em;
   }
 
+  section {
+    background-color: $color-dark;
+    margin-bottom: 2em;
+  }
+
   h2 {
-    font-weight: normal;
-    font-family: $font-family;
-    letter-spacing: 0;
+    @extend .west;
+  }
+
+  p, ul {
+    @extend .east;
+    background-color: $color-bg;
   }
 }
 
-#content-inner {
-  margin-left: 2em;
-}
+// #content-inner {
+//   margin: 0 2em;
+//   width: 80%;
+// }
 
 #header {
   margin-bottom: 2em;
+  background-color: $color-dark;
 
-  div {
-    @include float-left;
-    width: $width-left;
-    text-align: right;
-    background-color: $color-dark;
+  h1 {
     color: $color-bright;
   }
 }
 
 #nav {
-  @include float-left;
-  width: $width-right;
-  background-color: $color-dark;
+  
   font: {
     size: 1.3em;
-    family: $font-family-sans;
+    family: $font-family-light;
     weight: normal;
   }
 
   ul {
-    // padding-left: .5em;
     background-color: $color-bg;
   }
 
   li {
     float: left;
-    // margin: 0 .5em 0 0;
     text-align: center;
     border: {
       width: 0 $width-gutter/2;
@@ -158,16 +187,19 @@ img {
   width: 7em;
   padding: .9em 0 .7em;
   border: none;
-  background-color: $color-dark;
+  background-color: lighten($color-dark, 10%);
   color: $color-light;
   font-weight: 100;
   letter-spacing: .1em;
 }
 #nav a:active, #nav a:hover {
-  background-color: lighten($color-dark, 10%);
+  background-color: lighten($color-dark, 5%);
 }
 #nav a.active {
-  background-color: lighten($color-dark, 20%);
+  background-color: $color-dark;
+  color: $color-bright;
 }
+
+
 
 
