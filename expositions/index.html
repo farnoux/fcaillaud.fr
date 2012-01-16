@@ -1,0 +1,45 @@
+---
+layout: default
+title: expositions
+---
+
+{% capture now %}
+{% include expositions/now.md %}
+{% endcapture %}
+
+{% capture soon %}
+{% include expositions/soon.md %}
+{% endcapture %}
+
+{% capture y_2011 %}
+{% include expositions/2011.md %}
+{% endcapture %}
+
+{% capture y_2010 %}
+{% include expositions/2010.md %}
+{% endcapture %}
+
+{% capture y_2009 %}
+{% include expositions/2009.md %}
+{% endcapture %}
+
+
+<section class="clearfix">
+  {{ now | markdownify }}
+</section>
+
+<section class="clearfix">
+  {{ soon | markdownify }}
+</section>
+
+<section class="clearfix">
+  {{ y_2011 | markdownify }}
+</section>
+
+<section class="clearfix">
+  {{ y_2010 | markdownify }}
+</section>
+
+<section class="clearfix">
+  {{ y_2009 | markdownify }}
+</section>
