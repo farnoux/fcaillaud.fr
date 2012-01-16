@@ -1,15 +1,20 @@
+{% if page.url contains '/expositions' %}{% assign menu_expositions = true %}{% endif %}
+{% if page.url contains '/ateliers' %}{% assign menu_ateliers = true %}{% endif %}
+{% if page.url contains '/parcours' %}{% assign menu_parcours = true %}{% endif %}
+{% unless menu_expositions or menu_ateliers or menu_parcours %}{% assign menu_oeuvres = true %}{% endunless %}
+
 <header id="header" class="clearfix">
 
-  <div>
+  <div class="west">
     <h1>{{ site.author.name }}</h1>
   </div>
 
-  <nav id="nav">
+  <nav id="nav" class="east">
     <ul>
-      <li><a href="{{ site.root }}/">oeuvres</a></li>
-      <li><a href="{{ site.root }}/expositions" {% if page.url contains '/expositions' %} class="active" {% endif %}>expositions</a></li>
-      <li><a href="{{ site.root }}/ateliers" {% if page.url contains '/ateliers' %} class="active" {% endif %}>ateliers</a></li>
-      <li><a href="{{ site.root }}/parcours" {% if page.url contains '/parcours' %} class="active" {% endif %}>parcours</a></li>
+      <li><a href="{{ site.root }}/" {% if menu_oeuvres %} class="active" {% endif %}>oeuvres</a></li>
+      <li><a href="{{ site.root }}/expositions" {% if menu_expositions %} class="active" {% endif %}>expositions</a></li>
+      <li><a href="{{ site.root }}/ateliers" {% if menu_ateliers %} class="active" {% endif %}>ateliers</a></li>
+      <li><a href="{{ site.root }}/parcours" {% if menu_parcours %} class="active" {% endif %}>parcours</a></li>
     </ul>
   </nav>
 
