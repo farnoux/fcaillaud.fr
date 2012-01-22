@@ -1,0 +1,34 @@
+---
+layout: default
+title: ateliers
+---
+{% capture intro %}
+{% include ateliers/intro.md %}
+{% endcapture %}
+{% capture la_roche %}
+{% include ateliers/la-roche.md %}
+{% endcapture %}
+{% capture saint_flo %}
+{% include ateliers/saint-flo.md %}
+{% endcapture %}
+
+<section class="clearfix">
+  <h2 class="west">Les ateliers</h2>
+  <div class="east">
+  {{ intro | markdownify }}
+  </div>
+</section>
+
+<section class="clearfix">
+  <h2 class="west">La Roche sur Yon</h2>
+  <div class="east">
+  {{ la_roche | markdownify }}
+  </div>
+</section>
+
+<section class="clearfix">
+  <h2 class="west">Saint Florent des Bois</h2>
+  <div class="east">
+  {{ saint_flo | markdownify }}
+  </div>
+</section>
