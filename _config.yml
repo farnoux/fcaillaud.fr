@@ -1,5 +1,5 @@
 
-root:             
+root:             /fcaillaud.fr
 paginate:         10
 exclude:          [Makefile, README.md]
 permalink:        /:categories/:year/:title 
