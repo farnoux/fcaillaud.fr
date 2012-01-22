@@ -2,44 +2,53 @@
 layout: default
 title: expositions
 ---
-
 {% capture now %}
 {% include expositions/now.md %}
 {% endcapture %}
-
 {% capture soon %}
 {% include expositions/soon.md %}
 {% endcapture %}
-
 {% capture y_2011 %}
 {% include expositions/2011.md %}
 {% endcapture %}
-
 {% capture y_2010 %}
 {% include expositions/2010.md %}
 {% endcapture %}
-
 {% capture y_2009 %}
 {% include expositions/2009.md %}
 {% endcapture %}
 
-
 <section class="clearfix">
+  <h2 class="west">A l'affiche</h2>
+  <div class="east">
   {{ now | markdownify }}
+  </div>
 </section>
 
 <section class="clearfix">
+  <h2 class="west">A venir</h2>
+  <div class="east">
   {{ soon | markdownify }}
+  </div>
 </section>
 
 <section class="clearfix">
+  <h2 class="west">2011</h2>
+  <div class="east">
   {{ y_2011 | markdownify }}
+  </div>
 </section>
 
 <section class="clearfix">
+  <h2 class="west">2010</h2>
+  <div class="east">
   {{ y_2010 | markdownify }}
+  </div>
 </section>
 
 <section class="clearfix">
+  <h2 class="west">2009</h2>
+  <div class="east">
   {{ y_2009 | markdownify }}
+  </div>
 </section>
