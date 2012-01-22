@@ -54,7 +54,7 @@ h2 {
 }
 h3 {
   font-size: 1.4em;
-  padding: .4em 0 .5em;
+  padding: .4em 0 .1em;
 }
 // p {
 //   padding: .5em 0 .2em;
@@ -65,22 +65,23 @@ strong {
 em {
   font-style: italic;
 }
+
 a, a:visited {
   text-decoration: none;
   color: $font-color;
   padding: .1em .2em;
   border-bottom: 1px solid $color-bright;
+  background-color: lighten($color-bright, 30%);
+
+  @include transition-duration(.3s);
 }
-a:active, a:hover {
-  color: $font-color;
-  background: lighten($color-bright, 30%);
+a:hover, a:active, a:focus {
+  background-color: $color-bright;
 }
+
 img {
   border: $image-border-width solid $color-bg;
 }
-// img:hover {
-//   border-color: lighten($color-dark, 45%);
-// }
 
 article {
   padding: .5em 1em 1.2em 0;
@@ -104,8 +105,13 @@ section, footer {
 
   a {
     color: $color-light;
+    background-color: transparent;
+
+    // @include transition-duration(.2s);
+
     &:hover {
       color: $font-color;
+      background-color: lighten($color-bright, 30%);
     }
   }
 
@@ -192,8 +198,9 @@ div.east {
 
 #home img {
   width: $width-content / 2 - 4 * $image-border-width;
-  height: $width-content / 2 - 4 * $image-border-width;
+  // height: $width-content / 2 - 4 * $image-border-width;
   margin: $image-border-width 0 0 $image-border-width;
+
+  // width: 400px;
+  // height: 400px;
 }
-
-
