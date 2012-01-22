@@ -1,5 +1,5 @@
 
-* 2011 - Stage aquarelle avec [Maryse De May](http://marysedemay.com) *(La Roche sur Yon, 85)*
+* 2011 - Stage aquarelle avec [Maryse De May](http://www.marysedemay.com) *(La Roche sur Yon, 85)*
 * 2010 - Stage aquarelle avec [Viktoria Prischedko](http://www.prischedko.de) et Slawa Prischedko *(St Yrieix la Perche, 87)*
 * 2009 - Stage aquarelle avec [Reine Marie Pinchon](http://www.pinchon-aquarelles.com) *(St Yrieix la Perche, 87)*
 * 2008 - Stage aquarelle avec [Janine Gallizia](http://www.gallizia.be) *(Piégut Pluviers, 46)*
