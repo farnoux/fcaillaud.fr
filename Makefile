@@ -17,3 +17,9 @@ wompass:
 	compass watch --sass-dir=_sass --css-dir=css --output-style=expanded
 
 dev: jekyll& wompass
+
+resize:
+	convert images/$(image).jpg -resize 350x350^ images/$(image)-small.jpg
+
+resizecrop:
+	convert images/$(image).jpg -resize 350x350^ -crop 350x350$(offset) images/$(image)-small.jpg
