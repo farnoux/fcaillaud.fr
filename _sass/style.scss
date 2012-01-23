@@ -1,7 +1,7 @@
 @import "base";
 @import "misc";
 
-$font-family-light:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-light: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family: Cambria, Garamond, Georgia, Times, serif;
 
 @mixin font-normal() {
@@ -13,9 +13,8 @@ $font-family: Cambria, Garamond, Georgia, Times, serif;
 @mixin font-light() {
   font-family: $font-family-light;
   font-weight: 100;
-  letter-spacing: .1em;
+  letter-spacing: .05em;
 }
-
 
 $color-dark: #606060;
 $color-light: lighten($color-dark, 90%);
@@ -26,9 +25,7 @@ $color-bg-content: darken($color-bg, 5%);
 $font-color: darken($color-dark, 10%);
 
 $width-left: 35%;
-// $width-right: 100% - $width-left;
 $width-gutter: .5em;
-// $height-gutter: .6em;
 
 $height-header: 4.5em;
 $width-content: 40em;
@@ -188,12 +185,8 @@ div.east {
 }
 
 #nav a span {
-  font: {
-    size: 1.3em;
-    family: $font-family-light;
-    weight: 100;
-  }
-  letter-spacing: .1em;
+  @include font-light;
+  font-size: 1.3em;
 }
 
 #home img {
