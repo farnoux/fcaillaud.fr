@@ -11,7 +11,7 @@ jekyll&:
 #	sass _sass/style.scss:css/style.css --watch --style=compressed
 
 compass:
-	compass compile --sass-dir=_sass --css-dir=css --output-style=compressed
+	compass compile --sass-dir=_sass --css-dir=css --output-style=compressed --force
 
 wompass:
 	compass watch --sass-dir=_sass --css-dir=css --output-style=expanded

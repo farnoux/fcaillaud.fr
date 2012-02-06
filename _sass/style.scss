@@ -70,7 +70,7 @@ a, a:visited {
   border-bottom: 1px solid $color-bright;
   background-color: lighten($color-bright, 30%);
 
-  @include transition-duration(.3s);
+  @include transition-duration(.2s);
 }
 a:hover, a:active, a:focus {
   background-color: $color-bright;
@@ -104,11 +104,9 @@ section, footer {
     color: $color-light;
     background-color: transparent;
 
-    // @include transition-duration(.2s);
-
     &:hover {
       color: $font-color;
-      background-color: lighten($color-bright, 30%);
+      background-color: $color-bright;
     }
   }
 
@@ -125,18 +123,30 @@ section, footer {
   @include float-left;
   width: $width-content;
   background-color: $color-bg-content;
+  padding: .3em $width-gutter .5em;
 
   p {
-    padding: .5em .5em .2em;
+    padding: .5em $width-gutter .2em;
   }
   li p {
     padding: .2em 0;
   }
+
+  img {
+    width: $width-content - 2 * $image-border-width - 2 * $width-gutter;
+    margin: $image-border-width 0 0 $image-border-width;
+  }
 }
 
-div.east {
-  padding: .3em .5em .5em;
+.east {
 }
+
+#home img {
+  // Two images side by side horizontally for the homepage.
+  width: $width-content / 2 - 4 * $image-border-width;
+  height: $width-content / 2 - 4 * $image-border-width;
+}
+
 
 // #content {
 // @include float-right;
@@ -161,39 +171,33 @@ div.east {
     float: left;
     margin: 0 $width-gutter;
   }
+
+  a, a:visited {
+    display: block;
+    width: ($width-content - 8 * $width-gutter) / 4;
+    height: $height-header - 1em;
+    padding: 1em 0 0;
+
+    text-align: center;
+
+    background-color: lighten($color-dark, 10%);
+    color: $color-light;
+    
+    border: none;
+  }
+
+  a:active, a:hover {
+    background-color: lighten($color-dark, 5%);
+  }
+
+  a.active {
+    background-color: $color-dark;
+    color: $color-bright;
+  }
+
+  a span {
+    @include font-light;
+    font-size: 1.3em;
+  }
 }
 
-#nav a, #nav a:visited {
-  display: block;
-  width: ($width-content - 8 * $width-gutter) / 4;
-  height: $height-header - 1em;
-  padding: 1em 0 0;
-
-  text-align: center;
-
-  background-color: lighten($color-dark, 10%);
-  color: $color-light;
-  
-  border: none;
-}
-#nav a:active, #nav a:hover {
-  background-color: lighten($color-dark, 5%);
-}
-#nav a.active {
-  background-color: $color-dark;
-  color: $color-bright;
-}
-
-#nav a span {
-  @include font-light;
-  font-size: 1.3em;
-}
-
-#home img {
-  width: $width-content / 2 - 4 * $image-border-width;
-  // height: $width-content / 2 - 4 * $image-border-width;
-  margin: $image-border-width 0 0 $image-border-width;
-
-  // width: 400px;
-  // height: 400px;
-}
