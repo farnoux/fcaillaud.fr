@@ -1,0 +1,16 @@
+---
+layout: default
+title: aquarelles
+---
+
+{% for page in site.categories.aquarelle limit: 2 %}
+  <section class="clearfix">
+    <div class="west">
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.content | handleize }}</p>
+    </div>
+    <div class="east">
+      <img src="{{ site.root }}/images/{{ page.id | split: '/' | last | downcase }}.jpg" alt="{{ page.title }}" />
+    </div>
+  </section>
+{% endfor %}
