@@ -1,28 +1,15 @@
- <!--
- <article>
-  <header>
-    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+<article class="clearfix">
+  <div class="west">
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.content }}</p>
+    <!--
     <p>
       Publié le <time pubdate datetime="{{ post.date | date_to_xmlschema }}">{{ page.date | date: '%d/%m/%Y' }}</time>, dans la catégorie 
       {% for category in page.categories %}
        <strong><a href="/{{ category | downcase }}">{{ category }}</a></strong>
       {% endfor %}.
     </p>
-  </header>
-  {% if content %}
-    {{ content }}
-  {% else %}
-    {{ page.content }}
-  {% endif %}
-  <footer>
-  </footer>
-</article>
--->
-
-<article class="clearfix">
-  <div class="west">
-    <h2>{{ page.title }}</h2>
-    <p>{{ page.content }}</p>
+    -->
   </div>
   <div class="east">
     <img src="{{ site.root }}/images{{ page.url | downcase }}-big.jpg" alt="{{ page.title }}" />
