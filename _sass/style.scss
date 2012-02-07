@@ -63,7 +63,7 @@ em {
   font-style: italic;
 }
 
-a, a:visited {
+a {
   text-decoration: none;
   color: $font-color;
   padding: .1em .2em;
@@ -71,12 +71,17 @@ a, a:visited {
   background-color: lighten($color-bright, 30%);
 
   @include transition-duration(.2s);
-}
-a:hover, a:active, a:focus {
-  background-color: $color-bright;
+
+  &:visited {
+    
+  }
+
+  &:hover, &:active, &:focus {
+    background-color: $color-bright;
+  }
 }
 
-img {
+img, a img {
   border: $image-border-width solid $color-bg;
 }
 
@@ -128,6 +133,7 @@ section, footer {
   p {
     padding: .5em $width-gutter .2em;
   }
+
   li p {
     padding: .2em 0;
   }
@@ -138,13 +144,22 @@ section, footer {
   }
 }
 
-.east {
-}
 
-#home img {
-  // Two images side by side horizontally for the homepage.
-  width: $width-content / 2 - 4 * $image-border-width;
-  height: $width-content / 2 - 4 * $image-border-width;
+#home {
+  a {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    &:hover img {
+      border: $image-border-width solid lighten($color-dark, 30%);
+    }
+  }
+
+  img {
+    // Two images side by side horizontally for the homepage.
+    width: $width-content / 2 - 4 * $image-border-width;
+    height: $width-content / 2 - 4 * $image-border-width;
+  }
 }
 
 
@@ -172,7 +187,7 @@ section, footer {
     margin: 0 $width-gutter;
   }
 
-  a, a:visited {
+  a {
     display: block;
     width: ($width-content - 8 * $width-gutter) / 4;
     height: $height-header - 1em;
@@ -184,20 +199,23 @@ section, footer {
     color: $color-light;
     
     border: none;
-  }
 
-  a:active, a:hover {
-    background-color: lighten($color-dark, 5%);
-  }
-
-  a.active {
-    background-color: $color-dark;
-    color: $color-bright;
-  }
-
-  a span {
-    @include font-light;
-    font-size: 1.3em;
+    &:visited {
+      
+    }
+    &:active, &:hover {
+      background-color: lighten($color-dark, 5%);
+    }
+   
+    &.active {
+      background-color: $color-dark;
+      color: $color-bright;
+    } 
+    
+    span {
+      @include font-light;
+      font-size: 1.3em;
+    }
   }
 }
 
