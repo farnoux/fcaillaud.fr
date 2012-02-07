@@ -1,0 +1,5 @@
+<!-- { for page in paginator.posts limit: 2 } -->
+
+{% for page in category limit: 10 %}
+  {% include post.html %}
+{% endfor %}
