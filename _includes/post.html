@@ -25,6 +25,6 @@
     <p>{{ page.content }}</p>
   </div>
   <div class="east">
-    <img src="{{ site.root }}/images/{{ page.category }}/{{ page.id | split: '/' | last | downcase }}.jpg" alt="{{ page.title }}" />
+    <img src="{{ site.root }}/images/{{ page.category }}/{{ page.url | split: '/' | last | downcase }}.jpg" alt="{{ page.title }}" />
   </div>
 </section>
