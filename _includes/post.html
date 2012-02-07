@@ -1,3 +1,4 @@
+ <!--
  <article>
   <header>
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
@@ -16,3 +17,14 @@
   <footer>
   </footer>
 </article>
+-->
+
+<section class="clearfix">
+  <div class="west">
+    <h2>{{ page.title }}</h2>
+    <p>{{ page.content }}</p>
+  </div>
+  <div class="east">
+    <img src="{{ site.root }}/images/{{ page.category }}/{{ page.id | split: '/' | last | downcase }}.jpg" alt="{{ page.title }}" />
+  </div>
+</section>
