@@ -85,11 +85,11 @@ img, a img {
   border: $image-border-width solid $color-bg;
 }
 
-article {
-  padding: .5em 1em 1.2em 0;
-}
+// article {
+//   padding: .5em 1em 1.2em 0;
+// }
 
-section, footer {
+section, article, footer {
   background-color: $color-dark;
   margin-top: 1em;
 }
@@ -146,19 +146,19 @@ section, footer {
 
 
 #home {
-  a {
-    border: none;
-    padding: 0;
-    background-color: transparent;
-    &:hover img {
-      border: $image-border-width solid lighten($color-dark, 30%);
-    }
-  }
-
   img {
     // Two images side by side horizontally for the homepage.
     width: $width-content / 2 - 4 * $image-border-width;
     height: $width-content / 2 - 4 * $image-border-width;
+  }
+}
+
+a.img {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  &:hover img {
+    border: $image-border-width solid lighten($color-dark, 30%);
   }
 }
 

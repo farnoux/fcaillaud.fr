@@ -3,7 +3,7 @@
   <header>
     <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
     <p>
-      Publié le <time pubdate datetime="{{ post.date | html_global_date }}">{{ page.date | date: '%d/%m/%Y' }}</time>, dans la catégorie 
+      Publié le <time pubdate datetime="{{ post.date | date_to_xmlschema }}">{{ page.date | date: '%d/%m/%Y' }}</time>, dans la catégorie 
       {% for category in page.categories %}
        <strong><a href="/{{ category | downcase }}">{{ category }}</a></strong>
       {% endfor %}.
@@ -19,12 +19,12 @@
 </article>
 -->
 
-<section class="clearfix">
+<article class="clearfix">
   <div class="west">
     <h2>{{ page.title }}</h2>
     <p>{{ page.content }}</p>
   </div>
   <div class="east">
-    <img src="{{ site.root }}/images/{{ page.category }}/{{ page.url | split: '/' | last | downcase }}.jpg" alt="{{ page.title }}" />
+    <img src="{{ site.root }}/images{{ page.url | downcase }}.jpg" alt="{{ page.title }}" />
   </div>
-</section>
+</article>
