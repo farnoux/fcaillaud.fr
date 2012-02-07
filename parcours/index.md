@@ -1,6 +1,6 @@
 ---
 layout: default
-title: parcours
+title: Parcours
 ---
 {% capture parcours %}
 {% include parcours/parcours.md %}
