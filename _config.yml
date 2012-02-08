@@ -1,7 +1,7 @@
 
-root:             /fcaillaud.fr
+root:             
 paginate:         10
-exclude:          [Makefile, README.md]
+exclude:          [Makefile, README.md, CNAME]
 permalink:        /:categories/:year/:title 
 analyticss:        UA-17837251-1
 
