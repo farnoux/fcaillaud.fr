@@ -3,10 +3,10 @@ root:
 paginate:         10
 exclude:          [Makefile, README.md, CNAME]
 permalink:        /:categories/:year/:title 
-analyticss:        UA-17837251-1
+analytics:        UA-17837251-1
 
 
-description: Françoise Caillaud, aquarelliste
+description: Françoise Caillaud, aquarelle, encre-acrylique, ateliers, expositions
 
 author:
   name:       Françoise Caillaud
