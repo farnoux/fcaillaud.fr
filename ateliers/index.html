@@ -2,6 +2,9 @@
 layout: default
 title: Ateliers
 ---
+{% capture stages %}
+{% include ateliers/stages.md %}
+{% endcapture %}
 {% capture intro %}
 {% include ateliers/intro.md %}
 {% endcapture %}
@@ -11,6 +14,13 @@ title: Ateliers
 {% capture saint_flo %}
 {% include ateliers/saint-flo.md %}
 {% endcapture %}
+
+<section class="clearfix">
+  <h2 class="west">Stages à venir</h2>
+  <div class="east">
+  {{ stages | markdownify }}
+  </div>
+</section>
 
 <section class="clearfix">
   <h2 class="west">Les ateliers</h2>
