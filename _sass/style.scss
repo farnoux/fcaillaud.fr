@@ -129,9 +129,14 @@ section, article, footer {
   width: $width-content;
   background-color: $color-bg-content;
   padding: .3em $width-gutter .5em;
+  text-align: center;
 
   p {
     padding: .5em $width-gutter .2em;
+  }
+
+  li, p {
+    text-align: left;
   }
 
   li p {
@@ -139,8 +144,8 @@ section, article, footer {
   }
 
   img {
-    width: $width-content - 2 * $image-border-width - 2 * $width-gutter;
     margin: $image-border-width 0 0 $image-border-width;
+    max-width: $width-content - 2 * $image-border-width - 2 * $width-gutter;
   }
 }
 
