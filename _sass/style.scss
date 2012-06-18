@@ -73,7 +73,7 @@ a {
   @include transition-duration(.2s);
 
   &:visited {
-    
+
   }
 
   &:hover, &:active, &:focus {
@@ -202,21 +202,21 @@ a.img {
 
     background-color: lighten($color-dark, 10%);
     color: $color-light;
-    
+
     border: none;
 
     &:visited {
-      
+
     }
     &:active, &:hover {
       background-color: lighten($color-dark, 5%);
     }
-   
+
     &.active {
       background-color: $color-dark;
       color: $color-bright;
-    } 
-    
+    }
+
     span {
       @include font-light;
       font-size: 1.3em;

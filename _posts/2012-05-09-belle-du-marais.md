@@ -11,4 +11,4 @@ tag: promenade bucolique
 <br>
 au 5ème salon européen de Brugges
 <br>
-(2012) - Belgique
+(avril 2012) - Belgique
