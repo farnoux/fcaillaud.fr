@@ -11,6 +11,9 @@ title: Ateliers
 {% capture la_roche %}
 {% include ateliers/la-roche.md %}
 {% endcapture %}
+{% capture montaigu %}
+{% include ateliers/montaigu.md %}
+{% endcapture %}
 {% capture saint_flo %}
 {% include ateliers/saint-flo.md %}
 {% endcapture %}
@@ -26,6 +29,13 @@ title: Ateliers
   <h2 class="west">Les ateliers</h2>
   <div class="east">
   {{ intro | markdownify }}
+  </div>
+</section>
+
+<section class="clearfix">
+  <h2 class="west">Montaigu</h2>
+  <div class="east">
+  {{ montaigu | markdownify }}
   </div>
 </section>
 
