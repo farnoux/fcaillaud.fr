@@ -1,2 +1,2 @@
-* Du 12 au 27 mai 2012 - Salon d’arts plastiques de LA ROCHELLE (17)
+* Du 21 juillet au 19 août 2012 - Salon international de l'aquarelle - SAINT YRIEIX LA PERCHE (87)
 <br><br>
