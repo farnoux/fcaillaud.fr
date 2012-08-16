@@ -1,8 +1,8 @@
 
-root:             
+root:
 paginate:         10
-exclude:          [Makefile, README.md, CNAME]
-permalink:        /:categories/:year/:title 
+exclude:          [Makefile, README.md, CNAME, compass.rb, Guardfile]
+permalink:        /:categories/:year/:title
 analytics:        UA-17837251-1
 
 
@@ -10,7 +10,7 @@ description: Françoise Caillaud, aquarelle, encre-acrylique, ateliers, expositi
 
 author:
   name:       Françoise Caillaud
-  email:      francoise.caillaud@wanadoo.fr
+  email:      francoise-caillaud@wanadoo.fr
   siret:      48480498400017
 
   presentation: |
@@ -20,7 +20,7 @@ author:
 
   autre : |
     Passionnée d’Aquarelle mouillée, mes réalisations, très épurées, révèlent une atmosphère colorée, lumineuse, évanescente, d'où émane un sujet central, un coup de coeur...
-  
+
   autre2: |
     Cheminer, avancer... Mais toujours garder sa flamme intérieure...
 
