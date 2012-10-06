@@ -1,2 +1,5 @@
-* Du 21 juillet au 19 août 2012 - Salon international de l'aquarelle - SAINT YRIEIX LA PERCHE (87)
+
+* Du 6 au 12 octobre - Salon d’automne - LA CHÂTAIGNERAIE (85)
+* Du 13 au 18 octobre - 9èmes rencontres artistiques internationales d’ANGOULEME - BRIE (16)
+
 <br><br>
