@@ -1,4 +1,6 @@
 
-* Du 13 au 18 octobre - 9èmes rencontres artistiques internationales d’ANGOULEME - BRIE (16)
+* *Lauréate* au 12ème salon de la peinture à l’eau à AVRILLÉ (ANGERS) - Du 17 Novembre au 20 décembre
 
-<br><br>
+* Salon d’automne d'AIZENAY (85) - Du 17 au 25 novembre 2012
+
+* Phonothèque de FONTENAY LE COMTE - Novembre
