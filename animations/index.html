@@ -1,0 +1,61 @@
+---
+layout: default
+title: Animations
+---
+{% capture animations %}
+**Journée aquarelle non stop** de 10h à 17h (temps de repas inclu)
+
+- Mise en pratique des techniques abordées dans l’année
+- Réalisation d’une aquarelle format 30X45 environ
+- Travail dans le mouillé
+
+Tarif :
+- 35 € (pour les adhérents)
+- 40 € (pour les non adhérents)
+
+---
+A la **Roche sur Yon** :
+
+- le vendredi 26 avril 2013 (salle du Coteau au Bourg sous la Roche)
+
+A **Montaigu** :
+
+- le lundi 6 mai 13
+
+{% endcapture %}
+
+{% capture stages %}
+
+**Mini stage de 2 jours** de 10h à 17h
+
+Travail dans le mouillé, sur papier tendu (introduction d’un sujet dans un fondu directionnel)
+
+Tarif :
+- 70 € (pour les adhérents)
+- 80 € (pour les non adhérents)
+
+---
+A la **Roche sur Yon** :
+- les 20 et 21 juin 2013
+- les 4 et 5 juillet 2013
+
+A **Vouvant (Village de peintre)** :
+
+- les 1er et 2 aout 2013
+
+{% endcapture %}
+
+
+<section class="clearfix">
+  <h2 class="west">Journées aquarelle non stop</h2>
+  <div class="east">
+  {{ animations | markdownify }}
+  </div>
+</section>
+
+<section class="clearfix">
+  <h2 class="west">Mini stages</h2>
+  <div class="east">
+  {{ stages | markdownify }}
+  </div>
+</section>
