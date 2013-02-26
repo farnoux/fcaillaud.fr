@@ -2,14 +2,6 @@
   <div class="west">
     <h2>{{ page.title }}</h2>
     <p>{{ page.content }}</p>
-    <!--
-    <p>
-      Publié le <time pubdate datetime="{{ post.date | date_to_xmlschema }}">{{ page.date | date: '%d/%m/%Y' }}</time>, dans la catégorie 
-      {% for category in page.categories %}
-       <strong><a href="/{{ category | downcase }}">{{ category }}</a></strong>
-      {% endfor %}.
-    </p>
-    -->
   </div>
   <div class="east">
     <img src="{{ site.root }}/images{{ page.url | downcase }}-big.jpg" alt="{{ page.title }}" />
