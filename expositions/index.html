@@ -5,9 +5,6 @@ title: Expositions
 {% capture now %}
 {% include expositions/now.md %}
 {% endcapture %}
-{% capture soon %}
-{% include expositions/soon.md %}
-{% endcapture %}
 {% capture y_2014 %}
 {% include expositions/2014.md %}
 {% endcapture %}
@@ -28,16 +25,9 @@ title: Expositions
 {% endcapture %}
 
 <section class="clearfix">
-  <h2 class="west">Actuellement</h2>
+  <h2 class="west">Actualités</h2>
   <div class="east">
   {{ now | markdownify }}
-  </div>
-</section>
-
-<section class="clearfix">
-  <h2 class="west">A venir</h2>
-  <div class="east">
-  {{ soon | markdownify }}
   </div>
 </section>
 
