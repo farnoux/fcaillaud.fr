@@ -2,9 +2,15 @@
 layout: default
 title: Stages
 ---
+{% capture stages2015 %}
+Stages 2015
+
+- [Journée aquarelle non stop](#journée-aquarelle-non-stop)
+
+{% endcapture %}
 
 {% capture journee %}
-**Journée aquarelle non stop** 
+## **Journée aquarelle non stop** 
 
 Mise en pratique des techniques d'aquarelle mouillée.
 
@@ -50,6 +56,14 @@ Tarif :
 - 90 € (pour les non adhérents)
 
 {% endcapture %}
+
+
+<section class="clearfix">
+  <h2 class="west"></h2>
+  <div class="east">
+  {{ stages2015 | markdownify }}
+  </div>
+</section>
 
 <section class="clearfix">
   <h2 class="west">Journée aquarelle non stop</h2>
