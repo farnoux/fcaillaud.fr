@@ -1,4 +1,5 @@
-* 2013 - Stage avec David Chauvin
+* 2014 - Stage avec [Pierre Valaincourt](http://www.valaincourt.com/)
+* 2013 - Stage avec [David Chauvin](http://www.davidchauvin.fr/)
 * 2012 - Stage aquarelle avec [Maryse De May](http://www.marysedemay.com), le portrait *(St Yrieix la Perche, 87)*
 * 2011 - Stage aquarelle avec [Maryse De May](http://www.marysedemay.com) *(La Roche sur Yon, 85)*
 * 2010 - Stage aquarelle avec [Viktoria Prischedko](http://www.prischedko.de) et Slawa Prischedko *(St Yrieix la Perche, 87)*
