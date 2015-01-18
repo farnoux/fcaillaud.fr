@@ -4,7 +4,7 @@ La peinture est pour moi un havre de paix, où il fait bon se réfugier !!
 
 Mes réalisations sont issues de mon regard inquisiteur, troublé par un sujet précis et entrainé par l’EAU, irrésistible, bienfaitrice mais parfois redoutable et déconcertante. De cette expression subjective, découle une atmosphère parfois agitée, mais souvent zen, ou la rêverie est prépondérante.
 
-[L'ENCRE/ACRYLIQUE][2] : une expression différente est née, plus folle, suggestive (un tantinet impressionniste) ou se côtoient tous les paradoxes… L’eau y coule, aussi accompagnée d’encre, d’acrylique… Elle évoque l’évanescence, l’espoir, emprunt de spiritualité et d'éternité…
+[L'ENCRE/ACRYLIQUE][2] : une expression différente est née, plus folle, suggestive (un tantinet impressionniste) ou se côtoient tous les paradoxes… L’eau y coule, aussi accompagnée d’encre, d’acrylique… Elle évoque l'onirisme, l’évanescence, vouée à l'interprétation de chacun…
 
 [1]: {{ site.root }}/aquarelle
 [2]: {{ site.root }}/encre-acrylique
