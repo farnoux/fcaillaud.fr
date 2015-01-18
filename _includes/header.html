@@ -1,7 +1,8 @@
 {% if page.url contains '/expositions' %}{% assign menu_expositions = true %}{% endif %}
 {% if page.url contains '/ateliers' %}{% assign menu_ateliers = true %}{% endif %}
 {% if page.url contains '/parcours' %}{% assign menu_parcours = true %}{% endif %}
-{% unless menu_expositions or menu_ateliers or menu_parcours %}{% assign menu_oeuvres = true %}{% endunless %}
+{% if page.url contains '/stages' %}{% assign menu_stages = true %}{% endif %}
+{% unless menu_expositions or menu_ateliers or menu_parcours or menu_stages %}{% assign menu_oeuvres = true %}{% endunless %}
 
 <header id="header" class="clearfix">
 
@@ -14,6 +15,7 @@
       <li><a href="{{ site.root }}/"{% if menu_oeuvres %} class="active"{% endif %}><span>oeuvres</span></a></li>
       <li><a href="{{ site.root }}/expositions"{% if menu_expositions %} class="active"{% endif %}><span>expositions</span></a></li>
       <li><a href="{{ site.root }}/ateliers"{% if menu_ateliers %} class="active"{% endif %}><span>ateliers</span></a></li>
+      <li><a href="{{ site.root }}/stages"{% if menu_stages %} class="active"{% endif %}><span>stages</span></a></li>
       <li><a href="{{ site.root }}/parcours"{% if menu_parcours %} class="active"{% endif %}><span>parcours</span></a></li>
     </ul>
   </nav>
