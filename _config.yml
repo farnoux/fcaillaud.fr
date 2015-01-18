@@ -1,7 +1,7 @@
 root:
 paginate:         10
 exclude:          [Makefile, README.md, CNAME, compass.rb, Guardfile]
-permalink:        /:categories/:year/:title
+permalink:        /:categories/:title
 analytics:        UA-17837251-1
 markdown: kramdown
 
