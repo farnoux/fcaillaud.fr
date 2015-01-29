@@ -6,4 +6,4 @@ Différents supports sont utilisés en fonction du niveau de chacun. Je propose 
 
 Une aquarelle est réalisée à chaque séance, et même si elle a été inspirée par un modèle, elle est néanmoins le fruit de l'expression et de la sensibilité de chacun.
 
-<img src="{{ site.root }}/images/atelier.jpg" />
+<img src="{{ site.root }}/images/ateliers.jpg" />
