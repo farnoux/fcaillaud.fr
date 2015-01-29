@@ -13,7 +13,7 @@ title: Parcours
 <section class="clearfix">
   <div class="west">
     <!-- <h2>Parcours</h2> -->
-    <p><img src="{{ site.root }}/images/profil.png" /></p>
+    <p><img src="{{ site.root }}/images/profil.jpg" /></p>
   </div>
   <div class="east">
     {{ parcours | markdownify }}
