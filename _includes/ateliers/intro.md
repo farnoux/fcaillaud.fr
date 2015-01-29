@@ -5,3 +5,5 @@ A chaque séance, je propose et fournis moi même le sujet afin de mettre en exe
 Différents supports sont utilisés en fonction du niveau de chacun. Je propose donc de travailler à partir de reproductions d'Aquarelle, d'une photo, d'une nature morte ou d'un modèle extérieur, ou parfois à partir de sa propre imagination.
 
 Une aquarelle est réalisée à chaque séance, et même si elle a été inspirée par un modèle, elle est néanmoins le fruit de l'expression et de la sensibilité de chacun.
+
+<img src="{{ site.root }}/images/atelier.jpg" />
