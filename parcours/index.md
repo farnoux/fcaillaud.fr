@@ -20,7 +20,7 @@ title: Parcours
   </div>
 </section>
 <section class="clearfix">
-  <h2 class="west">Formation artistique</h2>
+  <h2 class="west">Formation artistique<p><img src="{{ site.root }}/images/profil.jpg" /></p></h2>
   <div class="east">
   {{ formation | markdownify }}
   </div>
