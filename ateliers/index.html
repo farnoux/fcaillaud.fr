@@ -18,9 +18,12 @@ title: Ateliers
 {% capture aizenay %}
 {% include ateliers/aizenay.md %}
 {% endcapture %}
+{% capture challans %}
+{% include ateliers/challans.md %}
+{% endcapture %}
 
 <section class="clearfix">
-  <h2 class="west">Ateliers Aquarelle 2015</h2>
+  <h2 class="west">Ateliers Aquarelle 2015/2016</h2>
   <div class="east">
   {{ intro | markdownify }}
   </div>
@@ -30,6 +33,13 @@ title: Ateliers
   <h2 class="west">La Roche sur Yon</h2>
   <div class="east">
   {{ la_roche | markdownify }}
+  </div>
+</section>
+
+<section class="clearfix">
+  <h2 class="west">Aizenay</h2>
+  <div class="east">
+  {{ aizenay | markdownify }}
   </div>
 </section>
 
@@ -48,9 +58,9 @@ title: Ateliers
 </section>
 
 <section class="clearfix">
-  <h2 class="west">Aizenay</h2>
+  <h2 class="west">Challans</h2>
   <div class="east">
-  {{ aizenay | markdownify }}
+  {{ challans | markdownify }}
   </div>
 </section>
 
