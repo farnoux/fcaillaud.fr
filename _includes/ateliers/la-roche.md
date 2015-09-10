@@ -14,6 +14,7 @@ Maison de quartier du **Bourg** (salle du Coteau) :
   - **1ères séances Groupe INITIES : 18 septembre et 2 octobre 2015**
   - **1ères séances Groupe DECOUVERTE : 25 septembre et 9 octobre 2015**
   
+  
 * __le jeudi, de 16h30 à 19h (2h30)__, 2 jeudis par mois.
   - 140 € les 15 séances
   - Adhésion à l'ADSCAB et inscription à la MQ : 10 € l’année
