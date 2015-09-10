@@ -2,14 +2,11 @@
 layout: default
 title: Stages
 ---
-{% capture stages2015 %}
-Stages 2015 :
+{% capture title %}
+Stages 2015/2016 :
 
-- [Journée aquarelle non stop (initiés)](#journee-aquarelle-non-stop-initiés)
-- [Journée aquarelle non stop (débutants)](#journee-aquarelle-non-stop-débutants)
-- [Stage de 2 jours](#stage-2-jours)
-- [Weekend détente/couleur/nature](#weekend-detente)
-- [Stage de 5 jours à Rosas](#stage-5-jours-rosas)
+- [Stage de 2 jours](#stage-3-jours)
+- [Stage en Espagne](#stage-espagne)
 
 <img src="{{ site.root }}/images/stage.jpg" />
 
@@ -85,20 +82,35 @@ Ne sont *pas* inclus :
 {% endcapture %}
 
 {% capture stages %}
-**Stage de 2 jours**
+**Stage de 3 jours**
 
+<!--
 - Travail dans le mouillé, sur papier tendu (introduction d’un sujet dans un fondu directionnel)
 - Réalisation de 3 aquarelles de format 30x45 (1 sur papier Montval, 1 sur papier coton)
 - Réalisation de sujets miniatures (couleurs, contrastes…) et essais de différentes techniques d’aquarelle mouillée
 - Introduction d’un sujet sur fond directionnel
-
 ---
-A la **<u>Roche sur Yon</u>** (85), les 18 et 19 juin 2015 de 10h à 17h.
+-->
+
+A la **<u>Roche sur Yon</u>** (85) (salle du Coteau), les 22, 23 et vendredi 24 juin 2016.
+Travail dans le mouillé.
 
 Tarif :
 
-- 80 € (pour les adhérents)
-- 90 € (pour les non adhérents)
+- 120 € les 3 jours pour les adhérents
+- 130 € pour les non adhérents
+{% endcapture %}
+
+
+{% capture espagne %}
+**Stage en Espagne (5 jours)**
+
+5 jours avec 4h de stage par jour (aquarelle +  transport sur site)
+Possibilité d'hébergement (25 € la nuit)
+
+Tarif :
+
+- 170 € les 5 jours de stage
 {% endcapture %}
 
 {% capture weekenddetente %}
@@ -128,41 +140,20 @@ Réservation et renseignements, Isabelle Rault :
 <section class="clearfix">
   <h2 class="west">&nbsp;</h2>
   <div class="east">
-  {{ stages2015 | markdownify }}
+  {{ title | markdownify }}
   </div>
 </section>
 
 <section class="clearfix">
-  <h2 class="west"><a name="journee-aquarelle-non-stop-initiés"></a>Journée aquarelle non stop (initiés)</h2>
-  <div class="east">
-  {{ journee | markdownify }}
-  </div>
-</section>
-
-<section class="clearfix">
-  <h2 class="west"><a name="journee-aquarelle-non-stop-débutants"></a>Journée aquarelle non stop (débutants)</h2>
-  <div class="east">
-  {{ journeeDebutant | markdownify }}
-  </div>
-</section>
-
-<section class="clearfix">
-  <h2 class="west"><a name="stage-2-jours"></a>Stage de 2 jours</h2>
+  <h2 class="west"><a name="stage-3-jours"></a>Stage de 3 jours</h2>
   <div class="east">
   {{ stages | markdownify }}
   </div>
 </section>
 
 <section class="clearfix">
-  <h2 class="west"><a name="weekend-detente"></a>Weekend détente/couleur/nature</h2>
+  <h2 class="west"><a name="stage-5-jours-rosas"></a>Stage en Espagne</h2>
   <div class="east">
-  {{ weekenddetente | markdownify }}
-  </div>
-</section>
-
-<section class="clearfix">
-  <h2 class="west"><a name="stage-5-jours-rosas"></a>Stage de 5 jours à Rosas (Espagne)</h2>
-  <div class="east">
-  {{ rosas | markdownify }}
+  {{ espagne | markdownify }}
   </div>
 </section>
