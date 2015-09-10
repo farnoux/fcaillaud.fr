@@ -21,6 +21,9 @@ title: Ateliers
 {% capture challans %}
 {% include ateliers/challans.md %}
 {% endcapture %}
+{% capture la_plaine %}
+{% include ateliers/la-plaine.md %}
+{% endcapture %}
 
 <section class="clearfix">
   <h2 class="west">Ateliers Aquarelle 2015/2016</h2>
@@ -61,6 +64,13 @@ title: Ateliers
   <h2 class="west">Challans</h2>
   <div class="east">
   {{ challans | markdownify }}
+  </div>
+</section>
+
+<section class="clearfix">
+  <h2 class="west">La Plaine sur mer</h2>
+  <div class="east">
+  {{ la_plaine | markdownify }}
   </div>
 </section>
 
