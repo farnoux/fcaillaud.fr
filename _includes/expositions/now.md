@@ -1,4 +1,9 @@
-* Du 2 au 28 février 2015 : Galerie Gaby Gréau, Château d’olonne (85). Permanences les 3, 14, 20, et 28 février après-midi.
-* Du 11 au 19 avril 2015 : Salon de Naintré (Vienne)
-* Du 11 au 17 juillet 2015 : Brantôme (24)
-* Du 12 au 14 septembre 2015 : Salon national d'aquarelle à Coex (85)
+*2015*
+
+- 61 ème salon international de Thouars (79) du 11 au 25 octobre 2015
+- Salon  national d’aquarelle Coex (85) du 11 au 14 septembre 2015
+- Marché de l’art  au Poiré sur Vie (85) les 27,28,29 novembre 2015
+
+*2016*
+
+- Office de Tourisme de Talmont et Bourgenay (85) du 17 au 30 juin 2016
